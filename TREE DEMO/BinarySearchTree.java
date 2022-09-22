@@ -134,6 +134,8 @@ class BST{
 				temp = temp.left;
 			}
 		} 
+		
+		// Delete Leaf Node
 
 		if(temp.left == null && temp.right == null){
 			if(parent.data > temp.data){
